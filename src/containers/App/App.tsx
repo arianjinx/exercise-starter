@@ -1,8 +1,9 @@
 import React from 'react';
-import './App.css';
+import styles from './App.module.css';
+import classNames from 'classnames';
 
 function App() {
-  return <div className="App">Let's gooo!!!</div>;
+  return <div className={classNames([styles.App])}>Let's gooo!!!</div>;
 }
 
 export default App;
